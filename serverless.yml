@@ -20,6 +20,9 @@ plugins:
 custom:
   webpackIncludeModules:
     packagePath: './package.json'
+  serverless-offline:
+    # 毎リクエストごとにコンソールにレスポンスログを吐かないように
+    dontPrintOutput: true
 
 # You can pin your service to only deploy with a specific Serverless version
 # Check out our docs for more details
