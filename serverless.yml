@@ -67,7 +67,7 @@ provider:
 
 functions:
   app:
-    handler: handler.main
+    handler: app.main
     events:
       - http:
           method: ANY
